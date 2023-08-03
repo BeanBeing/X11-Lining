@@ -6,5 +6,7 @@ Simple Xorg server display protocol window.
 X11 - If you use Linux, you probrably will already have X11, check your display server protocol
 ```
 
-# Usage
-Compile then run that executable
+# Compiling
+```
+g++ -lX11 main.cpp
+```
